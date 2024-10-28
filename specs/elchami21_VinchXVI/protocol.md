@@ -2,20 +2,20 @@
 
 ## 1.Overview
 Notre protocole permet de faire des calculs, les opérations supportées sont :
-* addition
-* multiplication
-* soustraction
+* addition [ADD]
+* multiplication [MUL]
+* soustraction [SUB]
 
 La demande est envoyée sous la forme d'un String de la forme :
 
 "Opération Opérande1 Opérande2"
 
-Avec Opérande1 et Opérande2 comme des nombres
+Avec Opérande1 et Opérande2 comme des nombres.
 
 Un message d'erreur sera envoyé si les condition ne sont pas remplies
 
 ## 2.Transport layer protocol
-Notre protocole utilise TCP. Le client établit la connexion. Il doit connaître l'adresse IP du serveur. Le serveur écoute sur le port TCP 55555.
+Notre protocole utilise TCP. Le client établit la connexion. Il doit connaître l'adresse IP du serveur. Le serveur écoute sur le port TCP 1234.
 
 Le serveur ferme la connection après que le résultat ou le message d'erreur est envoyé.
 ## 3.Messages
