@@ -5,7 +5,7 @@ import java.net.*;
 import java.nio.charset.StandardCharsets;
 
 public class Client {
-    final String SERVER_ADDRESS = "localhost"; // Changed from 1.2.3.4 for local testing
+    final String SERVER_ADDRESS = "localhost";
     final int SERVER_PORT = 1234;
 
     public static void main(String[] args) {
