@@ -12,12 +12,12 @@ La demande est envoyée sous la forme d'un String de la forme :
 
 Avec Opérande1 et Opérande2 comme des nombres.
 
-Un message d'erreur sera envoyé si les condition ne sont pas remplies
+Un message d'erreur sera envoyé si les conditions ne sont pas remplies
 
 ## 2.Transport layer protocol
 Notre protocole utilise TCP. Le client établit la connexion. Il doit connaître l'adresse IP du serveur. Le serveur écoute sur le port TCP 1234.
 
-Le serveur ferme la connection après que le résultat ou le message d'erreur est envoyé.
+Le serveur ferme la connection après que le Client envoie la String "X".
 ## 3.Messages
 Il y a trois types de message :
 * CalcDemand :
