@@ -26,6 +26,3 @@ La demande de calcul faite par le client
 Le résultat calculé par le serveur
 * Unkown Operation :
 S'il y a un élément inconnu dans la demande du client, le serveur enverra ce message d'erreur.
-
-## 5.Exemple
-TODO : insert images
